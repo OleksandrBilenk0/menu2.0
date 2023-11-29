@@ -1,0 +1,53 @@
+canvas { 
+    border:2px solid #333; 
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+.games {
+    display: flex;
+}
+.game {
+    background: #3d3d3d;
+    border-color: #8d8d8d;
+    font-size: 1rem;
+    /* font-weight: 500 !important; */
+    /* text-transform: capitalize; */
+    margin: 0 0.5rem;
+    letter-spacing: 1px;
+    border-radius: var(--radius);
+    padding: 0.375rem 3rem;
+    color: white;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.game:hover {
+    background-color: #a5a5a5;
+    color: black;
+  }
+
+.game-content {
+    text-align: center;
+    margin-bottom: 2rem;
+    z-index: 999;
+}
+
+.game-content p{
+    margin: 0;
+    width: 70%;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.cla {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+}
