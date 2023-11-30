@@ -162,7 +162,7 @@ function displayMenu2Items(menu2Items) {
 
 // Ваша функция для отображения и фильтрации кнопок меню
 function displayMenu2Buttons() {
-  const categories2 = ["Повне Mеню"];
+  const categories2 = ["Повне меню"];
   const menu2Buttons = document.querySelector(".menu2btn-container");
 
 // Проходим по элементам меню и добавляем уникальные категории в массив
@@ -187,7 +187,7 @@ menu2.forEach(function (menu2Item) {
     button.addEventListener("click", function (event) {
       const category = event.currentTarget.dataset.id;
 
-      if (category === "Повне Mеню") {
+      if (category === "Повне меню") {
         // Если выбрана категория "all", показываем все элементы меню
         displayMenu2Items(menu2);
       } else {

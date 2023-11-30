@@ -12,7 +12,7 @@ function getRandomBool() {
       [13,14,15,0]
     ];
   
-    this.color = "#8d8d8d";
+    this.color = "#fff";
   
     this.context = context;
     this.cellSize = cellSize;
@@ -38,7 +38,7 @@ function getRandomBool() {
     this.context.font = "bold " + (this.cellSize/2) + "px Sans";
     this.context.textAlign = "center";
     this.context.textBaseline = "middle";
-    this.context.fillStyle = "#222";
+    this.context.fillStyle = "#000";
   };
   
   Game.prototype.draw = function() {

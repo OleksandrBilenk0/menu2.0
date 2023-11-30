@@ -790,11 +790,11 @@ window.addEventListener("DOMContentLoaded", function () {
       <p>Доставка страв до дверейвашого будинку</p>
       </div>
 
-      <div class="phone"><p><a href="tel:+380689525758">+38 068 952 57 58</a></p></div>
+      <div class="phone"><p><a href="tel:+380689525758">+38 (068) -952-57-58</a></p></div>
 
       <div class="information-footer">
-          <a href="https://instagram.com/trattoria_sicily?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img style="width: 50px; height: 50px;" src="./img/instagram.png" alt="instagram"></a>
-          <a href="https://www.facebook.com/Sicily.borispol"><img style="width: 50px; height: 50px;" src="./img/facebook.png" alt="facebook"></a>
+      <a href="https://instagram.com/trattoria_sicily?igshid=NGVhN2U2NjQ0Yg%3D%3D&utm_source=qr"><img style="width: 50px; height: 50px; border-radius: 6px;" src="./img/instagram.png" alt="instagram"></a>
+      <a href="https://www.facebook.com/Sicily.borispol"><img style="width: 50px; height: 50px; border-radius: 50%; border: 1px solid white" src="./img/facebook.png" alt="facebook"></a>
         </div>
         
     `;
