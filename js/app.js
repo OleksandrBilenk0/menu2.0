@@ -673,6 +673,13 @@ window.addEventListener("DOMContentLoaded", function () {
     displayMenuItems(menu);
     displayMenuButtons();
   });
+
+  const toggleMenuBtn = document.getElementById('toggleMenuBtn');
+  const menuSection = document.getElementById('menuSection');
+
+  toggleMenuBtn.addEventListener('click', function () {
+  menuSection.style.display = (menuSection.style.display === 'none') ? 'block' : 'none';
+  });
   
   // Функция для отображения элементов меню
   function displayMenuItems(menuItems) {
@@ -714,8 +721,6 @@ window.addEventListener("DOMContentLoaded", function () {
     }).join("");
 
     
-    
-  
     // Добавляем кнопки категорий в HTML
     menuButtons.innerHTML = categoryButtons;
   
@@ -741,12 +746,7 @@ window.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  const toggleMenuBtn = document.getElementById('toggleMenuBtn');
-    const menuSection = document.getElementById('menuSection');
-
-    toggleMenuBtn.addEventListener('click', function () {
-    menuSection.style.display = (menuSection.style.display === 'none') ? 'block' : 'none';
-    });
+  
 
   const aboutUsBtn = document.getElementById('aboutUsBtn');
   const aboutUsContent = document.getElementById('aboutUsContent');
