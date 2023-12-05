@@ -112,7 +112,7 @@ const menu = [
         title: "Капрезе",
         category: "Брускета-бар",
         price: 85,
-        img: "./img/soon1.png",
+        img: "./img/03брускета-бар/0301.png",
         desc: `Хрусткий багет, свіжі томати, сир моцарела, соус Песто, свіжий базилік.`,
     },
     {
@@ -120,7 +120,7 @@ const menu = [
         title: "З ростбіфом",
         category: "Брускета-бар",
         price: 85,
-        img: "./img/soon1.png",
+        img: "./img/03брускета-бар/0302.png",
         desc: `Хрусткий багет, соус Цезар, в'ялені томати, Ростбіф, кінза.`,
     },
     {
@@ -128,7 +128,7 @@ const menu = [
         title: "З лососем",
         category: "Брускета-бар",
         price: 85,
-        img: "./img/soon1.png",
+        img: "./img/03брускета-бар/0303.png",
         desc: `Хрусткий багет , крем-сир, слабосолений лосоль , каперси, свіжий базилік.`,
     },
     {
@@ -136,7 +136,7 @@ const menu = [
         title: "З прошутто",
         category: "Брускета-бар",
         price: 85,
-        img: "./img/soon1.png",
+        img: "./img/03брускета-бар/0304.png",
         desc: `Хрусткий багет,моніні , крем-сир, руккола,прошутто.`,
     },
     {
@@ -144,7 +144,7 @@ const menu = [
         title: "Всі чотири",
         category: "Брускета-бар",
         price: 315,
-        img: "./img/soon1.png",
+        img: "./img/03брускета-бар/0305.png",
         desc: `По одній з вищеперерахованих брускет.`,
     },
     // Закуски
@@ -153,7 +153,7 @@ const menu = [
         title: "Карпачо з телятини",
         category: "Закуски",
         price: 235,
-        img: "./img/soon1.png",
+        img: "./img/04закуски/0401.png",
         desc: `Італійська страва приготована виключно з відбірного сирого м'яса телятини . Поливається медово-гірчичним соусом , руколла та пармезан .За бажанням можна додати грінки. `,
     },
     {
@@ -161,7 +161,7 @@ const menu = [
         title: "Карпачо з лосося",
         category: "Закуски",
         price: 295,
-        img: "./img/soon1.png",
+        img: "./img/04закуски/0402.png",
         desc: `Філе лосося попередньо поливається оливковою олією, тертий пармезан , руколла , каперси . За бажанням можна додати грінки.`,
     },
     // Салати
@@ -260,7 +260,7 @@ const menu = [
         category: "Гарячі закуски",
         price: 165,
         img: "./img/soon1.png",
-        desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+        desc: `Листкове тісто, м'ясо мідії, печериці, цибуля,вершки, твердий сир, соєвий соус,лимон.`,
     },
     {
         id: 6,
@@ -268,7 +268,7 @@ const menu = [
         category: "Гарячі закуски",
         price: 160,
         img: "./img/soon1.png",
-        desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+        desc: `Баклажани, томати, сир моцарела, пармезан, пармезан, соус песто власного виробництва, базилік.`,
     },
     {
         id: 6,
@@ -276,7 +276,7 @@ const menu = [
         category: "Гарячі закуски",
         price: 105,
         img: "./img/soon1.png",
-        desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+        desc: `Домашній сир в паніруванні , готуються у великій кількості масла. Подаються з ягідним соусом.`,
     },
     // Перші страви
     {
@@ -285,7 +285,7 @@ const menu = [
         category: "Перші страви",
         price: 87,
         img: "./img/soon1.png",
-        desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+        desc: `Бульйон на основі куриці, домашня паста, перепелині яйця, куряче філе, зелень.`,
     },
     {
         id: 7,
@@ -293,7 +293,7 @@ const menu = [
         category: "Перші страви",
         price: 165,
         img: "./img/soon1.png",
-        desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+        desc: `Особуко, томати, баклажан, броколі, цукіні, цибуля, перець болгарський , кінза.`,
     },
     {
         id: 7,
@@ -310,7 +310,7 @@ const menu = [
         category: "Гарніри",
         price: 75,
         img: "./img/soon1.png",
-        desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+        desc: `Картопля попередньо смажена у великій кількості масла. Подається з медово-гірчичним соусом.`,
     },
     {
         id: 8,
@@ -318,7 +318,7 @@ const menu = [
         category: "Гарніри",
         price: 75,
         img: "./img/soon1.png",
-        desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+        desc: `Картопляне пюре, вершкове масло, пармезан.`,
     },
     {
         id: 8,
@@ -326,7 +326,7 @@ const menu = [
         category: "Гарніри",
         price: 85,
         img: "./img/soon1.png",
-        desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+        desc: `Картопляні дольки смажені у великій кількості масла, подається зі смаженим беконом,часник, цибуля, зелень.`,
     },
     {
         id: 8,
@@ -334,7 +334,7 @@ const menu = [
         category: "Гарніри",
         price: 140,
         img: "./img/soon1.png",
-        desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+        desc: `Баклажани, цукіні, перець болгарський, томати, печериці, зелень. Готуються на грилі`,
     },
     // Піца
     {
@@ -342,7 +342,7 @@ const menu = [
         title: "Маргарита",
         category: "Піца",
         price: 185,
-        img: "./img/soon1.png",
+        img: "./img/09піца/0901.png",
         desc: `Томати, сир моцарела, свіжий базелік, соус <br> ( 380 г )`,
     },
     {
@@ -350,72 +350,72 @@ const menu = [
         title: "BBQ",
         category: "Піца",
         price: 310,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/09піца/0902.png",
+        desc: `Моцарела, копчений сир, мисливські ковбаски, бекон, балик, печериці, цибуля , соус bbq, томатна основа.`,
     },
     {
         id: 9,
         title: "Вулкан",
         category: "Піца",
         price: 465,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/09піца/0903.png",
+        desc: `Томати, бекон, чорізо, горгонзола, соус песто(власного виробницта), моцарела, рукола, пармезан, маслини, томати чері.`,
     },
     {
         id: 9,
         title: "Салямі",
         category: "Піца",
         price: 259,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/09піца/0904.png",
+        desc: `Томатна основа, Салямі , сир моцарела.`,
     },
     {
         id: 9,
         title: "Гавайська",
         category: "Піца",
         price: 255,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/09піца/0905.png",
+        desc: `Томатна основа, копчене куряче філе, сир моцарела, ананаси, розмарин.`,
     },
     {
         id: 9,
         title: "Капрічозе",
         category: "Піца",
         price: 285,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/09піца/0906.png",
+        desc: `Сир моцарела, сальтичон, копа парма, печериці,яйце,  рукола, сир пармезан, соус.`,
     },
     {
         id: 9,
         title: "Пепероні",
         category: "Піца",
         price: 269,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/09піца/0907.png",
+        desc: `Сир моцарела, пепероні, маслини, перець чілі , соус.`,
     },
     {
         id: 9,
         title: "Ростбіф",
         category: "Піца",
         price: 329,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/09піца/0908.png",
+        desc: `Печериці, болгарський перець, ростбіф, сир моцарела, червона цибуля , рукола, пармезан.`,
     },
     {
         id: 9,
         title: "Чотири сири",
         category: "Піца",
         price: 280,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/09піца/0909.png",
+        desc: `Сир моцарела, горгонзола, пармезан, гауда, волоські горіхи, виноград, вершковий соус.`,
     },
     {
         id: 9,
         title: "З прошутто",
         category: "Піца",
         price: 310,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/09піца/0910.png",
+        desc: `Вершкова основа, груша, копа парма, горгонзола, рукола, моцарела.`,
     },
     // Кальцоне
     {
@@ -423,16 +423,16 @@ const menu = [
         title: "Кальцоне з м'ясом",
         category: "Кальцоне",
         price: 259,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/10кальцоне/1001.png",
+        desc: `Тісто власного виробництва, томатна основа, си моцарела, ростбіф, цибуля,бекон, зелень.`,
     },
     {
         id: 10,
         title: "Кальцоне з сиром",
         category: "Кальцоне",
         price: 210,
-        img: "./img/soon1.png",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        img: "./img/10кальцоне/1002.png",
+        desc: `Тісто власного виробництва, вершкова основа, сир моцарела, сир твердий, журавлина , грецький горіх.`,
     },
     // Равіолі
     {
@@ -441,7 +441,7 @@ const menu = [
         category: "Равіолі",
         price: 215,
         img: "./img/soon1.png",
-        desc: `Ricotta is fantastic in desserts, and this cake is no exception. Begin this recipe 1 day ahead.`,
+        desc: `Тісто власного виробництва , телятина, соус песто, пармезан, вершки.`,
     },
     {
         id: 11,
@@ -449,7 +449,7 @@ const menu = [
         category: "Равіолі",
         price: 297,
         img: "./img/soon1.png",
-        desc: `Ricotta is fantastic in desserts, and this cake is no exception. Begin this recipe 1 day ahead.`,
+        desc: `Тісто власного виробництва, лосось, шпинат, крем-сир,пармезан, вершки .`,
     },
     // Паста
     {
@@ -466,7 +466,7 @@ const menu = [
         category: "Паста",
         price: 189,
         img: "./img/soon1.png",
-        desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
+        desc: `Паста власного виробництва, томатний соус на основі Пілаті, базилік, пармезан, Соус Балоньєзе.`,
     },
     {
         id: 12,
@@ -474,7 +474,7 @@ const menu = [
         category: "Паста",
         price: 279,
         img: "./img/soon1.png",
-        desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
+        desc: `Паста власного виробництва з додаванням чорнила Каракатиці , лосось, тигрова креветка , шпинат , базилік, томат чері. Соус томатний , в основі також часник та біле вино.`,
     },
     {
         id: 12,
@@ -482,7 +482,7 @@ const menu = [
         category: "Паста",
         price: 160,
         img: "./img/soon1.png",
-        desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
+        desc: `Тісто власного виробницва, Вершки,пармезан, Горгонзола, Крем-сир, Чедер, мигдалеві пластівці.`,
     },
     {
         id: 12,
@@ -490,7 +490,7 @@ const menu = [
         category: "Паста",
         price: 190,
         img: "./img/soon1.png",
-        desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
+        desc: `Паста власного виробництва, куряче філе, білі гриби. Соус на основі білого вина та вершків, пармезан `,
     },
     {
         id: 12,
@@ -506,7 +506,7 @@ const menu = [
         category: "Паста",
         price: 197,
         img: "./img/soon1.png",
-        desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
+        desc: `Тісто власного виробництва, сир моцарела, соус Бешамель, печериці, цибуля, балик.`,
     },
     // Ризотто
     {
@@ -515,7 +515,7 @@ const menu = [
         category: "Ризотто",
         price: 169,
         img: "./img/soon1.png",
-        desc: `Zero waste tip: "When it comes to storing perishables like dairy, the freezer is your best friends. Milk and yoghurt can be stored in ice cube trays and popped out to use in smoothies." - Ronni Kahn.`,
+        desc: `В тягучий неймовірно ароматний Ризотто який вже випарували на білому вині та спеціях .Додають білі гриби та слайси Пармезану.`,
     },
     {
         id: 13,
@@ -523,7 +523,7 @@ const menu = [
         category: "Ризотто",
         price: 290,
         img: "./img/soon1.png",
-        desc: `Zero waste tip: "When it comes to storing perishables like dairy, the freezer is your best friends. Milk and yoghurt can be stored in ice cube trays and popped out to use in smoothies." - Ronni Kahn.`,
+        desc: `Рис Арборіо проварюється в спеціях,в тягуче відварене Ризотто  потім додається лосось, креветка тигрова, мідії.`,
     },
     // Для великої компанії
     {
@@ -549,7 +549,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 179,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Філе куряче запечене зі спеціями, кисло-солодкий соус на основі меду, соєвого соусу . Подається з овочами гриль( баклажан, цукіні, перець болгарський ).`,
     },
     {
         id: 15,
@@ -557,7 +557,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 279,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Філе індички, манго, фісташки, бекон, гірчиця , спеції. `,
     },
     {
         id: 15,
@@ -565,7 +565,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 225,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Четвертина курчати , спеції, часник, листя салату, соус Сальса.`,
     },
     {
         id: 15,
@@ -573,7 +573,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 370,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Ніжні шматочки телятини під винно-сирним соусом з додаванням вершів та часнику.`,
     },
     {
         id: 15,
@@ -589,7 +589,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 440,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Рібай (прожарку стейка уточнюйте в офіціанта), соус Сальса. Картопля Краш, Томати, цибуля, часник, зелень `,
     },
     {
         id: 15,
@@ -597,7 +597,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 215,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `ФІле куряче подається під сиром моцарела та соусом песто власного виробництва.`,
     },
     {
         id: 15,
@@ -605,7 +605,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 229,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Свинина, томати,зелень . Подається з томатним песто власного виробництва, томатами чері та картопляним пюре.`,
     },
     // Риба та морепродукти
     {
@@ -614,7 +614,7 @@ const menu = [
         category: "Риба та морепродукти",
         price: 305,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Запечена в спеціях та з лимоном Форель. Подається з долькою свіжого лимону, та салатом заправлений Морським соусом.`,
     },
     {
         id: 16,
@@ -630,7 +630,7 @@ const menu = [
         category: "Риба та морепродукти",
         price: 390,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Креветка тигрова, лосось, мідії, біла риба, овочевий мікс, соус на основі вершів та білого вина, лимон, зелень`,
     },
     {
         id: 16,
@@ -638,7 +638,7 @@ const menu = [
         category: "Риба та морепродукти",
         price: 205,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Філе скумбрії смажене на грилі, Листя салату .Подається з соусом Тар-тар.`,
     },
     // Десерти
     {
@@ -647,7 +647,7 @@ const menu = [
         category: "Десерти",
         price: 135,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Ніжний бісквітний кекс , розрізавши який розтікається гарячий шоколад . Поласувати варто з кулькою морозива)`,
     },
     {
         id: 17,
@@ -655,7 +655,7 @@ const menu = [
         category: "Десерти",
         price: 125,
         img: "./img/soon1.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: `Ніжна вершково-сирна основа ,заливається ягідною сумішю та запікається.`,
     },
     {
         id: 17,
