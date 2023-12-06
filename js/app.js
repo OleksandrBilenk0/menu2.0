@@ -665,27 +665,27 @@ const menu = [
         img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
-    
+
 ];
 
 // Загружаем элементы при загрузке страницы
 window.addEventListener("DOMContentLoaded", function () {
     displayMenuItems(menu);
     displayMenuButtons();
-  });
+});
 
-  const toggleMenuBtn = document.getElementById('toggleMenuBtn');
-  const menuSection = document.getElementById('menuSection');
+const toggleMenuBtn = document.getElementById('toggleMenuBtn');
+const menuSection = document.getElementById('menuSection');
 
-  toggleMenuBtn.addEventListener('click', function () {
-  menuSection.style.display = (menuSection.style.display === 'none') ? 'block' : 'none';
-  });
-  
-  // Функция для отображения элементов меню
-  function displayMenuItems(menuItems) {
+toggleMenuBtn.addEventListener('click', function () {
+    menuSection.style.display = (menuSection.style.display === 'none') ? 'block' : 'none';
+});
+
+// Функция для отображения элементов меню
+function displayMenuItems(menuItems) {
     const menuSection = document.querySelector(".section-center");
     const menuHTML = menuItems.map(function (menuItem) {
-      return `
+        return `
         <article class="menu-item">
           <img src="${menuItem.img}" alt="${menuItem.title}" class="photo" />
           <div class="item-info">
@@ -698,61 +698,61 @@ window.addEventListener("DOMContentLoaded", function () {
         </article>
       `;
     });
-  
+
     // Преобразуем массив HTML в строку и добавляем в HTML-код
     menuSection.innerHTML = menuHTML.join("");
-  }
-  
-  // Функция для отображения и фильтрации кнопок меню
-  function displayMenuButtons() {
+}
+
+// Функция для отображения и фильтрации кнопок меню
+function displayMenuButtons() {
     const categories = ["Повне меню"]; // Создаем массив категорий, начинаем с "all"
     const menuButtons = document.querySelector(".btn-container");
-  
+
     // Проходим по элементам меню и добавляем уникальные категории в массив
     menu.forEach(function (menuItem) {
-      if (!categories.includes(menuItem.category)) {
-        categories.push(menuItem.category);
-      }
+        if (!categories.includes(menuItem.category)) {
+            categories.push(menuItem.category);
+        }
     });
-  
+
     // Создаем кнопки категорий
     const categoryButtons = categories.map(function (category) {
-      return `<button class="filter-btn" type="button" data-id="${category}">${category}</button>`;
+        return `<button class="filter-btn" type="button" data-id="${category}">${category}</button>`;
     }).join("");
 
-    
+
     // Добавляем кнопки категорий в HTML
     menuButtons.innerHTML = categoryButtons;
-  
+
     // Добавляем обработчики событий для кнопок фильтрации
     const filterButtons = menuButtons.querySelectorAll(".filter-btn");
-  
+
     filterButtons.forEach(function (button) {
-      button.addEventListener("click", function (event) {
-        const category = event.currentTarget.dataset.id;
-  
-        if (category === "Повне меню") {
-          // Если выбрана категория "all", показываем все элементы меню
-          displayMenuItems(menu);
-        } else {
-          // В противном случае, фильтруем элементы меню по категории
-          const filteredMenu = menu.filter(function (menuItem) {
-            return menuItem.category === category;
-          });
-  
-          displayMenuItems(filteredMenu);
-        }
-      });
+        button.addEventListener("click", function (event) {
+            const category = event.currentTarget.dataset.id;
+
+            if (category === "Повне меню") {
+                // Если выбрана категория "all", показываем все элементы меню
+                displayMenuItems(menu);
+            } else {
+                // В противном случае, фильтруем элементы меню по категории
+                const filteredMenu = menu.filter(function (menuItem) {
+                    return menuItem.category === category;
+                });
+
+                displayMenuItems(filteredMenu);
+            }
+        });
     });
-  }
+}
 
-  
 
-  const aboutUsBtn = document.getElementById('aboutUsBtn');
-  const aboutUsContent = document.getElementById('aboutUsContent');
-  
-  // Функция, которая отображает информацию о заведении
-  function showAboutUsInfo() {
+
+const aboutUsBtn = document.getElementById('aboutUsBtn');
+const aboutUsContent = document.getElementById('aboutUsContent');
+
+// Функция, которая отображает информацию о заведении
+function showAboutUsInfo() {
     // Здесь можно добавить код для загрузки и отображения информации
     // Например:
     aboutUsContent.innerHTML = `
@@ -798,23 +798,23 @@ window.addEventListener("DOMContentLoaded", function () {
         </div>
         
     `;
-  }
-  
-  // Добавляем обработчик события на кнопку
-  aboutUsBtn.addEventListener('click', showAboutUsInfo);
-  
+}
+
+// Добавляем обработчик события на кнопку
+aboutUsBtn.addEventListener('click', showAboutUsInfo);
+
 
 // Флаг, который указывает, открыта ли информация
 let isAboutUsInfoOpen = false;
 
 // Функция, которая отображает информацию о заведении или скрывает ее
 function toggleAboutUsInfo() {
-  if (isAboutUsInfoOpen) {
-    aboutUsContent.style.display = 'none'; // Скрываем информацию
-  } else {
-    aboutUsContent.style.display = 'block'; // Отображаем информацию
-  }
-  isAboutUsInfoOpen = !isAboutUsInfoOpen; // Инвертируем флаг
+    if (isAboutUsInfoOpen) {
+        aboutUsContent.style.display = 'none'; // Скрываем информацию
+    } else {
+        aboutUsContent.style.display = 'block'; // Отображаем информацию
+    }
+    isAboutUsInfoOpen = !isAboutUsInfoOpen; // Инвертируем флаг
 }
 
 // Добавляем обработчик события на кнопку

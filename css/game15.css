@@ -1,16 +1,17 @@
-canvas { 
-    border:2px solid #333; 
+canvas {
+    border: 2px solid #333;
 }
 
 .game-container {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
-
 }
+
 .games {
     display: flex;
 }
+
 .game {
     width: 17rem;
     height: 3rem;
@@ -18,7 +19,6 @@ canvas {
     border-color: #ffffff;
     font-size: 1rem;
     font-weight: 900;
-    /* text-transform: capitalize; */
     margin: 0 0.5rem;
     letter-spacing: 1px;
     border-radius: var(--radius);
@@ -26,10 +26,6 @@ canvas {
     cursor: pointer;
     transition: var(--transition);
 }
-/* .game:hover {
-    background-color: #d9d9d9;
-    color: #6d4200;
-  } */
 
 .game-content {
     text-align: center;
@@ -37,7 +33,7 @@ canvas {
     z-index: 999;
 }
 
-.game-content p{
+.game-content p {
     margin: 0;
     width: 70%;
     color: #ffffff;
