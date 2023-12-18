@@ -664,7 +664,7 @@ const menu = [
         title: "Морозиво",
         category: "Десерти",
         price: 87,
-        img: "./img/17десерти/1703.png",
+        img: "./img/soon1.png",
         desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
     },
 
