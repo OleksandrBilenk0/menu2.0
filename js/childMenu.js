@@ -126,6 +126,7 @@ const menu2 = [
   },
 ];
 
+
 window.addEventListener("DOMContentLoaded", function () {
   // Здесь можно вызвать функции для отображения меню, если необходимо
   displayMenu2Items(menu2);
