@@ -133,7 +133,7 @@ const menu = [
         category: "Брускета-бар",
         price: 85,
         img: "./img/03брускета-бар/0306.png",
-        desc: `Хрусткий багет, свіжі томати, сир "Моцарела", соус "Песто", свіжий базилік.`,
+        desc: `Хруский багет , крем-сир, авокадо, креветка, томати, соус, зелень.`,
     },
     {
         id: 3,
@@ -149,7 +149,7 @@ const menu = [
         category: "Брускета-бар",
         price: 85,
         img: "./img/03брускета-бар/0307.png",
-        desc: `Хрусткий багет, свіжі томати, сир "Моцарела", соус "Песто", свіжий базилік.`,
+        desc: `Хрусткий багет, томати, цибуля , тунець, оливки,маслини, соус, зелень.`,
     },
     {
         id: 3,
@@ -157,7 +157,7 @@ const menu = [
         category: "Брускета-бар",
         price: 85,
         img: "./img/03брускета-бар/0303.png",
-        desc: `Хрусткий багет , крем-сир, слабосолений лосось , каперси, свіжий базилік.`,
+        desc: `Хрусткий багет, крем-сир, слабосолений лосось , каперси, свіжий базилік.`,
     },
     {
         id: 3,
@@ -165,7 +165,7 @@ const menu = [
         category: "Брускета-бар",
         price: 85,
         img: "./img/03брускета-бар/0304.png",
-        desc: `Хрусткий багет,моніні , крем-сир, руккола,прошутто.`,
+        desc: `Хрусткий багет, моніні, крем-сир, руккола,прошутто.`,
     },
     {
         id: 3,
@@ -305,7 +305,7 @@ const menu = [
         category: "Гарячі закуски",
         price: 219,
         img: "./img/06гаряче/0607.png",
-        desc: `Традиційна закуска Сицилії. З попереньо відвареного рису "Арборіо" формується кулька, в яку кладуть крем-сир, в'ялені томати . Паніруються та смажаться в олії. Подаються з соусом "Вершковий песто". `,
+        desc: ``,
     },
     {
         id: 6,
@@ -354,7 +354,7 @@ const menu = [
         category: "Перші страви",
         price: 139,
         img: "./img/07перше/0705.png",
-        desc: `Особуко, томати, баклажан, броколі, цукіні, цибуля, перець болгарський , кінза.`,
+        desc: `Квасоля, томати, цибуля, морква, часник, селера,капуста, подається з грінками та пармезаном .`,
     },
     {
         id: 7,
@@ -370,7 +370,7 @@ const menu = [
         category: "Перші страви",
         price: 139,
         img: "./img/07перше/0703.png",
-        desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+        desc: `Вешковий сир, бульйон , картопля , вершки.`,
     },
     {
         id: 7,
@@ -378,7 +378,7 @@ const menu = [
         category: "Перші страви",
         price: 139,
         img: "./img/07перше/0704.png",
-        desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+        desc: `Печериці, вершки , цибуля, гриби білі.`,
     },
     // Гарніри
     {
@@ -428,7 +428,7 @@ const menu = [
         category: "Піца",
         price: 219,
         img: "./img/09піца/0911.png",
-        desc: `Вершки, сир "Моцарела", сир "Пармезан", печериці, куряче філе, цибуля.`,
+        desc: `Вершкова основа, сир "Моцарела", печериці, цибуля, куряче філе, сир Пармезан.`,
     },
     {
         id: 9,
@@ -500,7 +500,7 @@ const menu = [
         category: "Піца",
         price: 335,
         img: "./img/09піца/0913.png",
-        desc: `Вершки, крем сир, авокадо, цибуля синя, в"ялені томати, горіхи кешью.`,
+        desc: `Вершки, крем-сир, авокадо, цибуля синя, в"ялені томати, горіхи кешью.`,
     },
     {
         id: 9,
@@ -525,7 +525,7 @@ const menu = [
         category: "Кальцоне",
         price: 225,
         img: "./img/10кальцоне/1003.png",
-        desc: ``,
+        desc: `Філе індички , томати, цукіні, печериці, перець болгарський, томатний соус, сир "Моцарела"`,
     },
     {
         id: 10,
@@ -567,7 +567,7 @@ const menu = [
         category: "Паста",
         price: 190,
         img: "./img/12паста/1201.png",
-        desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
+        desc: ``,
     },
     {
         id: 12,
@@ -607,7 +607,7 @@ const menu = [
         category: "Паста",
         price: 210,
         img: "./img/12паста/1206.png",
-        desc: `You will need a kitchen blowtorch for this delicious dessert recipe.`,
+        desc: ``,
     },
     {
         id: 12,
@@ -649,7 +649,7 @@ const menu = [
         category: "Для великої компанії",
         price: 525,
         img: "./img/14компанія/1402.png",
-        desc: `Аранчіні, сир фрі, рибні палички, мідії фрі, картопля фрі, солоні хлібці.`,
+        desc: `Нагетси, сир фрі, рибні палички, мідії фрі, картопля фрі, солоні хлібці.`,
     },
     {
         id: 14,
@@ -682,7 +682,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 239,
         img: "./img/15м'ясо/1509.png",
-        desc: ``,
+        desc: `Рис з овочами, куряче філе з сиром "Моцарела" та томатами`,
     },
     {
         id: 15,
@@ -706,7 +706,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 395,
         img: "./img/15м'ясо/1505.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: ``,
     },
     {
         id: 15,
@@ -722,7 +722,7 @@ const menu = [
         category: "Страви з м'яса",
         price: 215,
         img: "./img/15м'ясо/1507.png",
-        desc: ``,
+        desc: `Свинина, картопля, соус грибний на вершковій основі`,
     },
     {
         id: 15,
@@ -747,7 +747,7 @@ const menu = [
         category: "Риба та морепродукти",
         price: 395,
         img: "./img/16риба/1602.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: ``,
     },
     {
         id: 16,
@@ -820,7 +820,7 @@ const menu = [
         category: "Десерти",
         price: 87,
         img: "./img/17десерти/1703.png",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed`,
+        desc: ``,
     },
 
 ];
