@@ -430,7 +430,7 @@ const menu = [
         category: "Піца",
         price: 185,
         img: "./img/09піца/0901.png",
-        desc: `Томати,&nbsp;&nbsp;&nbsp;сир&nbsp;&nbsp;&nbsp;"Моцарела",&nbsp;&nbsp;&nbsp;свіжий&nbsp;&nbsp;&nbsp;базилік,&nbsp;&nbsp;&nbsp;соус.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`,
+        desc: `Томати, "Моцарела", свіжий базилік, соус.`,
     },
     {
         id: 9,
@@ -471,7 +471,7 @@ const menu = [
         category: "Піца",
         price: 265,
         img: "./img/09піца/0904.png",
-        desc: `Томатна основа, салямі , сир "Моцарела".&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`,
+        desc: `Томатна основа, салямі , сир "Моцарела".`,
     },
     {
         id: 9,
