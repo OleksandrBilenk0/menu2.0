@@ -85,7 +85,7 @@ const menu = [
         category: "Антипасті",
         price: 530,
         img: "./img/soon1.png",
-        desc: `Поєднання сирної і м'ясної антипасті.`,
+        desc: `Смачне поєднання сирної антипасті та м'ясної антипасті.`,
         
     },
     // {
@@ -430,7 +430,7 @@ const menu = [
         category: "Піца",
         price: 185,
         img: "./img/09піца/0901.png",
-        desc: `Томати, сир "Моцарела", свіжий базилік, соус.`,
+        desc: `Томати,&nbsp;&nbsp;&nbsp;сир&nbsp;&nbsp;&nbsp;"Моцарела",&nbsp;&nbsp;&nbsp;свіжий&nbsp;&nbsp;&nbsp;базилік,&nbsp;&nbsp;&nbsp;соус.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`,
     },
     {
         id: 9,
@@ -471,7 +471,7 @@ const menu = [
         category: "Піца",
         price: 265,
         img: "./img/09піца/0904.png",
-        desc: `Томатна основа, салямі , сир "Моцарела".`,
+        desc: `Томатна основа, салямі , сир "Моцарела".&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`,
     },
     {
         id: 9,
@@ -561,7 +561,7 @@ const menu = [
         title: "Равіолі з телятиною <br> (280г.)",
         category: "Равіолі",
         price: 230,
-        img: "./img/soon.png",
+        img: "./img/soon1.png",
         desc: `Тісто власного виробництва , телятина, соус песто, сир "Пармезан", вершки.`,
     },
     {
@@ -764,7 +764,7 @@ const menu = [
         category: "Риба та морепродукти",
         price: 395,
         img: "./img/soon1.png",
-        desc: `...................................................................................................`,
+        desc: `Пряний лосось смажений на грилі. Подається зі спаржою, руколою та томатами.`,
     },
     {
         id: 16,
