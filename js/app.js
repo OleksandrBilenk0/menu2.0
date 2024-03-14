@@ -845,7 +845,7 @@ const menu = [
         desc15: `<span class="desc_desc"><span class="desc_left">Merlot, Baron d'Arignac<br><span class="under_desc">(Франція) напівсолодке</span></span><span class="desc_right">85/425</span><br></span>`,
         desc16: `<span class="desc_desc"><span class="desc_left">Bordolino Classico, Zeni<br><span class="under_desc">(Італія) сухе</span></span><span class="desc_right">88/440</span><br></span>`,
         desc17: `<span class="desc_desc"><span class="desc_left">Alastro la Segretta, Planeta<br><span class="under_desc">(Італія) сухе</span></span><span class="desc_right">116/580</span><br></span>`,
-        desc18: `<span class="desc_desc"><span class="desc_left">KTW Special Collection, Kindzmarauli<br><span class="under_desc">(Грузія) червоне напівсолодке</span></span><span class="desc_right">___/670</span><br></span>`,
+        desc18: `<span class="desc_desc"><span class="desc_left">KTW Special Collection, Kindzmarauli<br><span class="under_desc">(Грузія) червоне напівсолодке</span></span><span class="desc_right">670</span><br></span>`,
 
         // Безалкогольні вина
         desc19: `<span class="bar_title_left"><i>Безалкогольні вина</i></span><span class="bar_title_right"><i>150 / 750</i></span><br><br>`,
@@ -978,8 +978,8 @@ const menu = [
         img: "./img/Бар/IMG_0009.JPG",
         desc: `<span class="desc_desc"><span class="desc_left">Яблучний SOUR<br><span class="under_desc"></span></span><span class="desc_right">75</span><br></span>`,
         desc1: `<span class="desc_desc"><span class="desc_left">Молочний коктейль<br><span class="under_desc"></span></span><span class="desc_right">95</span><br></span>`,
-        desc2: `<span class="desc_desc"><span class="desc_left">Кривава мері<br><span class="under_desc"></span></span><span class="desc_right">88</span><br></span>`,
-        desc3: `<span class="desc_desc"><span class="desc_left">Мохіто<br><span class="under_desc"></span></span><span class="desc_right">60</span><br></span>`,
+        desc2: `<span class="desc_desc"><span class="desc_left">Кривава мері<br><span class="under_desc"></span></span><span class="desc_right">60</span><br></span>`,
+        desc3: `<span class="desc_desc"><span class="desc_left">Мохіто<br><span class="under_desc"></span></span><span class="desc_right">88</span><br></span>`,
     },
     // Лимонади
     {
@@ -989,9 +989,10 @@ const menu = [
         price: "",
         img: "./img/Бар/mohito3.webp",
         desc: `<span class="desc_desc"><span class="desc_left">Цитрусовий<br><span class="under_desc">(250ml)</span></span><span class="desc_right">57</span><br></span>`,
-        desc1: `<span class="desc_desc"><span class="desc_left">Молочний коктейль<br><span class="under_desc">(250ml)</span></span><span class="desc_right">57</span><br></span>`,
-        desc2: `<span class="desc_desc"><span class="desc_left">Кривава мері<br><span class="under_desc">(250ml)</span></span><span class="desc_right">57</span><br></span>`,
-        desc3: `<span class="desc_desc"><span class="desc_left">Мохіто<br><span class="under_desc">(250ml)</span></span><span class="desc_right">57</span><br></span>`,
+        desc1: `<span class="desc_desc"><span class="desc_left">Імбирний<br><span class="under_desc">(250ml)</span></span><span class="desc_right">57</span><br></span>`,
+        desc2: `<span class="desc_desc"><span class="desc_left">Полуниця-базилік<br><span class="under_desc">(250ml)</span></span><span class="desc_right">57</span><br></span>`,
+        desc3: `<span class="desc_desc"><span class="desc_left">Лаймово-огірковий<br><span class="under_desc">(250ml)</span></span><span class="desc_right">57</span><br></span>`,
+        desc4: `<span class="desc_desc"><span class="under_desc">АБО ЗАМОВЛЯЙ 1 ЛІТР БУДЬ-ЯКОГО ЛИМОНАДУ</span></span>`
     },
     // Чаї
     {
