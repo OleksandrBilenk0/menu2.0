@@ -198,6 +198,11 @@
   <script src="./js/app02.js"></script>
   <script src="./js/childMenu02.js"></script>
   <script src="./js/game15.js"></script>
+  <script>
+    const timestamp = new Date().getTime(); // Получаем текущую метку времени
+    document.write(`<script src="app.js?${timestamp}"><\/script>`);
+    document.write(`<link rel="stylesheet" href="styles.css?${timestamp}">`);
+  </script>
 </body>
 
 </html>
